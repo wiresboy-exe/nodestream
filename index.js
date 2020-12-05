@@ -11,7 +11,7 @@ const config = {
     ping_timeout: 60
   },
   http: {
-    port: 4000,
+    port: 81,
     allow_origin: '*'
   }
 };
