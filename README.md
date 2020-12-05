@@ -19,7 +19,8 @@ Set the streaming url to rtmp://localhost:4000/live and set the stream key to wh
 Then start streaming and go to http://localhost:4000/live/STREAM_NAME.flv
 
 __Glitch__
-https://glitch.com/remix
+
+https://glitch.com/edit/#!/remix/nodestream-wiresdev
 
 Open obs and set the stream type to custom
 
