@@ -2,7 +2,7 @@
 
 Node stream is an easy to use open scoure application that allows people to stream using OBS to a server
 
-To setup download this as a zip file or remix it on glitch!
+To setup download this as a zip file or remix it on glitch! (or just clone it)
 
 __Downloading__
 
