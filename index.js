@@ -1,9 +1,11 @@
 const NodeMediaServer = require('node-media-server');
+
+var password = 'myPass'
  
 const config = {
   rtmp: {
     port: 1935,
-    chunk_size: 1000,
+    chunk_size: 500,
     gop_cache: true,
     ping: 30,
     ping_timeout: 60
@@ -47,8 +49,10 @@ nms.on('donePublish', (id, StreamPath, args) => {
  
 nms.on('prePlay', (id, StreamPath, args) => {
   console.log('[NodeEvent on prePlay]', `id=${id} StreamPath=${StreamPath} args=${JSON.stringify(args)}`);
-  // let session = nms.getSession(id);
-  // session.reject();
+  if(args.pass != pass){
+    let session = nms.getSession(id);
+    session.reject();
+  }
 });
  
 nms.on('postPlay', (id, StreamPath, args) => {
