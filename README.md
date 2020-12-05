@@ -14,9 +14,9 @@ Once you have downloaded it run these two commands:
 
 Then, you open OBS and set the stream type to custom
 
-Set the streaming url to `rtmp://localhost:4000/live` and set the stream key to what you want to call the stream.
+Set the streaming url to `rtmp://localhost:81/live` and set the stream key to what you want to call the stream.
 
-Then, start streaming and go to `http://localhost:4000/live/[STREAM_NAME].flv`
+Then, start streaming and go to `http://localhost:81/live/[STREAM_NAME].flv`
 
 __Glitch__
 
@@ -24,6 +24,6 @@ https://glitch.com/edit/#!/remix/nodestream-wiresdev
 
 Open OBS and set the stream type to custom
 
-Set the streaming url to `rtmp://localhost:4000/live` and set the stream key to what you want to call the stream.
+Set the streaming url to `rtmp://localhost:81/live` and set the stream key to what you want to call the stream.
 
-Then start streaming and go to `http://localhost:4000/live/[STREAM_NAME].flv`
+Then start streaming and go to `http://localhost:81/live/[STREAM_NAME].flv`
