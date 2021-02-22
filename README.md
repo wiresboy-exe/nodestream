@@ -1,8 +1,8 @@
 # NodeStream
 
-NodeStream is an easy to use open-source application that allows people to stream using OBS to a remote server.
+NodeStream is an easy to use open-source application that allows people to stream to a remote server using OBS.
 
-To setup download this as a zip file, remix it on Glitch, or use git to clone the repository.
+To setup, download this as a zip file, remix it on Glitch, or use git to clone the repository.
 
 __Downloading__
 
@@ -14,7 +14,7 @@ Once you have downloaded it run these two commands:
 
 Then, you open OBS and set the stream type to custom
 
-Set the streaming url to `rtmp://localhost:81/live` and set the stream key to what you want to call the stream.
+Set the streaming url to `rtmp://localhost:4000/live`, and set the stream key to what you want to call the stream.
 
 Then, start streaming and go to `http://localhost:81/live/[STREAM_NAME].flv`
 
@@ -24,6 +24,6 @@ https://glitch.com/edit/#!/remix/nodestream-wiresdev
 
 Open OBS and set the stream type to custom
 
-Set the streaming url to `rtmp://localhost:81/live` and set the stream key to what you want to call the stream.
+Set the streaming url to `rtmp://localhost:4000/live`, and set the stream key to what you want to call the stream.
 
 Then start streaming and go to `http://localhost:81/live/[STREAM_NAME].flv`
